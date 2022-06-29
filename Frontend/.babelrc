@@ -12,5 +12,6 @@
         "extensions": [".js", ".jsx"]
       }
     ]
+    // ["babel-plugin-styled-components"],
   ]
 }
