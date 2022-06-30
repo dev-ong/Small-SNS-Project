@@ -1,3 +1,38 @@
+$main-color: #fdb32a;
+$button-color: #faca83;
+
+// 회원가입 -------------------
+
+.signup_container {
+  padding: 0 2rem;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.signup_title {
+  text-align: center;
+  color: $main-color;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.signup_description {
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.signup_input_container {
+  text-align: center;
+}
+
+.signup_input {
+  width: 12rem;
+  height: 2rem;
+}
+
+// ---------------------------
+
 .container {
   padding: 0 2rem;
 }
