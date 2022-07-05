@@ -33,6 +33,56 @@ $button-color: #faca83;
 
 // ---------------------------
 
+//footer 하단 버튼
+.footer_button{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.footer_button_left{
+  width: 50%;
+  height: 74px;
+  top: 738px;
+  float: left;
+  background: #FACA83;
+  border-right: 0.05px solid sandybrown;
+
+}
+
+.footer_button_right{
+  width: 50%;
+  height: 74px;
+  top: 738px;
+  float: right;
+  background: #FACA83;
+  border-left: 0.05px solid sandybrown;
+}
+
+.button_default{
+  all : inherit;
+  text-align: -webkit-center;
+  width: 100%;
+}
+
+.no_default_style{
+  all : inherit;
+}
+
+.circle {
+  background: sandybrown;
+  width: 60px;
+  height: 60px; 
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle_img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  display: block;
+}
+
 .container {
   padding: 0 2rem;
 }
