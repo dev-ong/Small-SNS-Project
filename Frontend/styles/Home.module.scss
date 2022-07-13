@@ -24,6 +24,7 @@ $button-color: #faca83;
 
 .signup_input_container {
   text-align: center;
+  padding: 0.5rem;
 }
 
 .signup_input {
@@ -31,47 +32,89 @@ $button-color: #faca83;
   height: 2rem;
 }
 
+.signup_main {
+  padding: 1rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup_button_null {
+  width: 12rem;
+  height: 2rem;
+  color: white;
+  font-weight: bold;
+  background-color: $button-color;
+  border: 0;
+  cursor: pointer;
+}
+
+.signup_button_fill {
+  width: 12rem;
+  height: 2rem;
+  color: white;
+  font-weight: bold;
+  background-color: $main-color;
+  border: 0;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    border: 4px solid #faca83;
+  }
+}
+
+.signup_a {
+  color: $main-color;
+  font-weight: bold;
+
+  &:hover {
+    font-size: larger;
+  }
+}
+
 // ---------------------------
 
 //footer 하단 버튼
-.footer_button{
+.footer_button {
   width: 100%;
   position: fixed;
   bottom: 0;
 }
-.footer_button_left{
+.footer_button_left {
   width: 50%;
   height: 74px;
   top: 738px;
   float: left;
-  background: #FACA83;
+  background: #faca83;
   border-right: 0.05px solid sandybrown;
-
 }
 
-.footer_button_right{
+.footer_button_right {
   width: 50%;
   height: 74px;
   top: 738px;
   float: right;
-  background: #FACA83;
+  background: #faca83;
   border-left: 0.05px solid sandybrown;
 }
 
-.button_default{
-  all : inherit;
+.button_default {
+  all: inherit;
   text-align: -webkit-center;
   width: 100%;
 }
 
-.no_default_style{
-  all : inherit;
+.no_default_style {
+  all: inherit;
 }
 
 .circle {
   background: sandybrown;
   width: 60px;
-  height: 60px; 
+  height: 60px;
   border-radius: 50%;
   overflow: hidden;
 }
